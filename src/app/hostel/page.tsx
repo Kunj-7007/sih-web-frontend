@@ -303,7 +303,7 @@ export default function HostelDashboard() {
               <div className="space-y-2 text-center md:text-left">
                 <p className="text-xs text-slate-500">Amount Pending</p>
                 <h3 className="text-3xl font-bold text-red-600">₹1,25,000</h3>
-                <p className="text-sm text-slate-600">from 45 students</p>
+                <p className="text-sm text-slate-600">from 4 students</p>
               </div>
             </div>
           </DashboardCard>
