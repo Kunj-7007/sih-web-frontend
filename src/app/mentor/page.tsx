@@ -132,7 +132,7 @@ const MetricCard = ({
   <Card
     className={`relative overflow-hidden h-30 ${theme.borderClass} ${theme.card} hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group`}
   >
-    <CardContent className="p-4 flex flex-col justify-center h-full">
+    <CardContent className="p-4 flex flex-col justify-between h-full">
       <div className="flex items-start justify-between">
         <div
           className={`p-2 rounded-xl ${theme.primary.bg}/10 ${theme.primary.text} group-hover:scale-110 transition-transform`}
@@ -285,9 +285,7 @@ export default function ClassCoordinatorDashboard() {
         {/* Header */}
         <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
           <div>
-            <h1 className={`${themeConfig.text}`}>
-              Class Counsilor
-            </h1>
+            <h1 className={`${themeConfig.text}`}>Class Councillor</h1>
             <p className={`${themeConfig.textMuted} `}>
               Analytics and management for B.Tech CSE - Section B (2025 Batch).
             </p>
